@@ -1,5 +1,5 @@
-// button-component.js
-class MyButton extends HTMLElement {
+// Button.js
+class Button extends HTMLElement {
     constructor() {
       super();
   
@@ -21,5 +21,5 @@ class MyButton extends HTMLElement {
   }
   
   // Define the custom element
-  customElements.define('my-button', MyButton);
+  customElements.define('my-button', Button);
   

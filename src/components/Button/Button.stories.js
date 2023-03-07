@@ -1,6 +1,6 @@
 // button.stories.js
 import { html } from 'lit-html';
-import '../button-component';
+import './Button';
 
 export default {
   title: 'Button',
